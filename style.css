@@ -1,0 +1,93 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: url(1567666.png) no-repeat center bottom;
+    background-size: 3000;
+}
+
+.navbar{
+    width: 1500px;
+    height: 65px;
+    margin-inline-end: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(0, 195, 255);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:rgb(0, 195, 255 );
+}
+
+li h1 {
+    color: rgb(0, 195, 255);
+}
+
+@keyframes glow {
+    0% { box-shadow: 0 0 10px cyan; }
+    50% { box-shadow: 0 0 25px cyan; }
+    100% { box-shadow: 0 0 10px cyan; }
+
+}Img {
+    cursor: pointer;
+    aspect-ratio: 3/2;
+    height: 230px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px cyan;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 20px cyan;
+     animation: glow 1s infinite;
+}
+
+li h2 {
+    color: white;
+}
